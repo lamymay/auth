@@ -16,12 +16,6 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 @Slf4j
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
-//    @Autowired
-//    private ArcSecurityProperties arcSecurityProperties;
-
-//        @Resource
-//        private RedisTemplate<Object, Object> redisTemplate;
-
     /**
      * 配置
      *
@@ -71,4 +65,9 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     // @Autowired  private MyAccessDeniedHandle exceptionHandler;
 
 
+//    @Autowired
+//    private ArcSecurityProperties arcSecurityProperties;
+
+//        @Resource
+//        private RedisTemplate<Object, Object> redisTemplate;
 }
