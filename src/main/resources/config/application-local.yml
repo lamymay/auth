@@ -1,0 +1,18 @@
+########################################################
+#          不同环境         Environment for Localhost  注意：数据配置在这里
+########################################################A
+spring:
+  servlet:
+    multipart:
+      max-file-size: 10200MB
+      max-request-size: 102400MB
+  profiles: local
+  datasource:
+    #    driver-class-name:  com.mysql.jdbc.Driver   #5.X mysql
+    driver-class-name: com.mysql.cj.jdbc.Driver   #8.X mysql
+    url: jdbc:mysql://127.0.0.1:3306/test2?useUnicode=true&characterEncoding=UTF-8&useAffectedRows=true&useSSL=false&serverTimezone=GMT%2B8
+    username: root
+    password: admin
+    hikari:
+      max-lifetime: 1765000
+      maximum-pool-size: 15
