@@ -1,4 +1,4 @@
-package com.arc.auth.config;
+package com.arc.auth.config.annotations;
 
 
 import org.springframework.context.annotation.Bean;
